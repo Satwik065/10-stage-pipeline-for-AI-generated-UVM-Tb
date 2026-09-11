@@ -1,5 +1,5 @@
 # STAGE 0 CONSTITUTION — Sync Hub Protocol / QPSK Golden DUT — v1.5
-constitution_sha256: <compute after saving this file, then paste here>
+constitution_sha256: dbcc90d94bdbe80711ff949de159f42c225fb3e0d098050e080349a77f19b34d
 
 CHANGELOG (v1.4 -> v1.5, pre-freeze):
   - §5: added explicit clause for Stage 4-7 variant compile failures
