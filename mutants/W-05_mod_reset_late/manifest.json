@@ -1,0 +1,11 @@
+{
+  "id": "W-05_mod_reset_late",
+  "lane": "weather",
+  "target_file": "qpsk_modulator.sv",
+  "transform_description": "mod reset effective one cycle late (rst_d register) \u2014 driver trap",
+  "expected_verdict": "PASS",
+  "signature": "PASS: no [ERROR] lines (BKG is reset-aware)",
+  "golden_source_sha256": "1e97e9d673a68abe31b1e6b811f1b39f8e6b0ecdc686cf77d1aed55e03d32c92",
+  "mutated_file_sha256": "e3628aefbed1bd7a1d67da0e2a8e77e0cce972739b7952a2d9b69276d986850f",
+  "builder": "stage3_build_battery-v1.5"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "S-01_const_sym10_i",
+  "lane": "sabotage",
+  "target_file": "qpsk_modulator.sv",
+  "transform_description": "symbol 10 I corrupted to +127",
+  "expected_verdict": "FAIL",
+  "signature": "ONLY MISMATCH exp=10 got=00 (x10, every sym10); classes={MISMATCH}",
+  "golden_source_sha256": "1e97e9d673a68abe31b1e6b811f1b39f8e6b0ecdc686cf77d1aed55e03d32c92",
+  "mutated_file_sha256": "21e89d1aed72a8f8ca2c2ce16be3b80013c31b6dc783776e757ed8ef0e86aee2",
+  "builder": "stage3_build_battery-v1.5"
+}

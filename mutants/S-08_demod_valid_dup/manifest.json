@@ -1,0 +1,11 @@
+{
+  "id": "S-08_demod_valid_dup",
+  "lane": "sabotage",
+  "target_file": "qpsk_demodulator.sv",
+  "transform_description": "demod asserts valid_out twice per input symbol",
+  "expected_verdict": "FAIL",
+  "signature": "DUPLICATE valid_out after every symbol (x40); classes={DUPLICATE}",
+  "golden_source_sha256": "dae0efdbbbd22282f4da54d373d20ade4a6227832350ffcb3721343fbaa3afe5",
+  "mutated_file_sha256": "239d6bee6d4c9c0b3666b6a144dbaf1ec7ccdb65a7c3d1cfb7714c220f90fdeb",
+  "builder": "stage3_build_battery-v1.5"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "W-03_mod_idle_zero",
+  "lane": "weather",
+  "target_file": "qpsk_modulator.sv",
+  "transform_description": "mod drives I/Q=0 when !valid_in (legal: data meaningful at valid only)",
+  "expected_verdict": "PASS",
+  "signature": "PASS: no [ERROR] lines",
+  "golden_source_sha256": "1e97e9d673a68abe31b1e6b811f1b39f8e6b0ecdc686cf77d1aed55e03d32c92",
+  "mutated_file_sha256": "d2273cf2c02123e38228cfb45f042c544e46a5c4207a2a230c24b4eeef002ccf",
+  "builder": "stage3_build_battery-v1.5"
+}

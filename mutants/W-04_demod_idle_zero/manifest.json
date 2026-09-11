@@ -1,0 +1,11 @@
+{
+  "id": "W-04_demod_idle_zero",
+  "lane": "weather",
+  "target_file": "qpsk_demodulator.sv",
+  "transform_description": "demod drives bits=0 when !valid_in",
+  "expected_verdict": "PASS",
+  "signature": "PASS: no [ERROR] lines",
+  "golden_source_sha256": "dae0efdbbbd22282f4da54d373d20ade4a6227832350ffcb3721343fbaa3afe5",
+  "mutated_file_sha256": "88618151e11a4ab335725a43b4414fbf07f5dfa416befc8186b13b828f376e7a",
+  "builder": "stage3_build_battery-v1.5"
+}

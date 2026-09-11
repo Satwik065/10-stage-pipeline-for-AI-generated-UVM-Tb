@@ -1,0 +1,11 @@
+{
+  "id": "W-02_demod_latency_plus1",
+  "lane": "weather",
+  "target_file": "qpsk_demodulator.sv",
+  "transform_description": "demod outputs staged through one extra aligned register (+1 cycle)",
+  "expected_verdict": "PASS",
+  "signature": "PASS: no [ERROR] lines; +1 latency only",
+  "golden_source_sha256": "dae0efdbbbd22282f4da54d373d20ade4a6227832350ffcb3721343fbaa3afe5",
+  "mutated_file_sha256": "271e9254325d2bb5d68dd349e491429f276986dcde1c391be7cfd4979e5a0cc1",
+  "builder": "stage3_build_battery-v1.5"
+}
