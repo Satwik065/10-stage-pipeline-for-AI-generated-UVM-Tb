@@ -1,0 +1,10 @@
+cal_work/
+sim/obj_dir/
+mutants/
+*.vvp
+*.vcd
+*.o
+*.a
+*.d
+__pycache__/
+*.pyc
