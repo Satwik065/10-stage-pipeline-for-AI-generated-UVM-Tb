@@ -1,0 +1,57 @@
+=== S-01_const_sym10_i ===
+     10 exp=10 got=00
+=== S-02_const_sym01_q ===
+     10 exp=01 got=00
+=== S-03_slice_invert_i ===
+     10 exp=11 got=01
+     10 exp=10 got=00
+     10 exp=01 got=11
+     10 exp=00 got=10
+=== S-04_slice_swap_iq ===
+     10 exp=10 got=01
+     10 exp=01 got=10
+=== S-05_mod_valid_gate ===
+      5 exp=01 got=11
+      5 exp=00 got=10
+=== S-06_demod_valid_skew ===
+     10 exp=11 got=10
+     10 exp=10 got=01
+     10 exp=01 got=00
+      9 exp=00 got=11
+=== S-07_const_sym00_i ===
+     10 exp=00 got=10
+=== S-08_demod_valid_dup ===
+=== S-09_ch_q_inversion ===
+     10 exp=11 got=10
+     10 exp=10 got=11
+     10 exp=01 got=00
+     10 exp=00 got=01
+=== S-10_ch_drop_valid ===
+      3 exp=11 got=00
+      3 exp=01 got=10
+      3 exp=00 got=01
+      2 exp=11 got=10
+      2 exp=11 got=01
+      2 exp=10 got=11
+      2 exp=10 got=01
+      2 exp=10 got=00
+      2 exp=01 got=00
+      2 exp=00 got=10
+      1 exp=01 got=11
+      1 exp=00 got=11
+=== S-11_ch_noise_overload ===
+      3 exp=10 got=01
+      3 exp=10 got=00
+      3 exp=00 got=10
+      2 exp=11 got=01
+      2 exp=10 got=11
+      2 exp=01 got=11
+      2 exp=01 got=00
+      2 exp=00 got=01
+      1 exp=11 got=10
+      1 exp=11 got=00
+      1 exp=01 got=10
+      1 exp=00 got=11
+=== S-12_ch_q_zero ===
+     10 exp=11 got=10
+     10 exp=01 got=00

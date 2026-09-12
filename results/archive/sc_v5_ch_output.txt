@@ -1,0 +1,94 @@
+channel.sv sha256=c05104057287a22d72bdf37c166cba7626818f6eb03748e5dfe38cc6a122681d
+golden                           golden    exp=PASS  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+W-01_mod_latency_plus1           weather   exp=PASS  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+W-02_demod_latency_plus1         weather   exp=PASS  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+W-03_mod_idle_zero               weather   exp=PASS  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+W-04_demod_idle_zero             weather   exp=PASS  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+W-05_mod_reset_late              weather   exp=PASS  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+W-06_demod_reset_late            weather   exp=PASS  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+S-01_const_sym10_i               sabotage  exp=FAIL  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+S-02_const_sym01_q               sabotage  exp=FAIL  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+S-03_slice_invert_i              sabotage  exp=FAIL  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+S-04_slice_swap_iq               sabotage  exp=FAIL  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+S-05_mod_valid_gate              sabotage  exp=FAIL  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+S-06_demod_valid_skew            sabotage  exp=FAIL  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+S-07_const_sym00_i               sabotage  exp=FAIL  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+S-08_demod_valid_dup             sabotage  exp=FAIL  COMPILE/ELAB FAILURE (§5: attributed, never retried) -> GATE FAIL
+COMPILE_ERROR:
+variants/sc_v5_ch/tb_ai_ch_v5.sv:106: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:107: sorry: Overriding the default variable lifetime is not yet supported.
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: syntax error
+variants/sc_v5_ch/tb_ai_ch_v5.sv:111: Syntax in assignment statement l-value.
+
+CELLS: 0/15 matched
+CALIBRATION: FAIL — the battery is broken. Fix the battery, never the BKG (§9).

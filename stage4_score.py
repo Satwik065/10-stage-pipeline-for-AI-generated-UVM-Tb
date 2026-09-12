@@ -71,7 +71,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rtl-dir", default="./rtl")
     ap.add_argument("--mutants-dir", default="./mutants")
-    ap.add_argument("--tb", default="tb/tb_qpsk_bkg.sv")
+    ap.add_argument("--tb", default="variants/sc_v5_ch/tb_ai_ch_v5.sv")
     ap.add_argument("--workdir", default="./cal_work")
     a = ap.parse_args()
     rtl, mdir = Path(a.rtl_dir), Path(a.mutants_dir)

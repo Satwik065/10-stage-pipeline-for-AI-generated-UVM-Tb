@@ -1,0 +1,26 @@
+golden                           golden    exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-01_mod_latency_plus1           weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-02_demod_latency_plus1         weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-03_mod_idle_zero               weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-04_demod_idle_zero             weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-05_mod_reset_late              weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-06_demod_reset_late            weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+S-01_const_sym10_i               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-02_const_sym01_q               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-03_slice_invert_i              sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-04_slice_swap_iq               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-05_mod_valid_gate              sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-06_demod_valid_skew            sabotage  exp=FAIL  act=P P P P P    (5P/0F) GATE FAIL
+S-07_const_sym00_i               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-08_demod_valid_dup             sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+W-07_ch_noise_doubled            weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-08_ch_rotation_doubled         weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-09_ch_latency_plus1            weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-10_ch_idle_zero                weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+S-09_ch_q_inversion              sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-10_ch_drop_valid               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-11_ch_noise_overload           sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-12_ch_q_zero                   sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+
+CELLS: 11/23 matched
+CALIBRATION: FAIL — the battery is broken. Fix the battery, never the BKG (§9).

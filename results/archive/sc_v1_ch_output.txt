@@ -1,0 +1,19 @@
+channel.sv sha256=c05104057287a22d72bdf37c166cba7626818f6eb03748e5dfe38cc6a122681d
+golden                           golden    exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-01_mod_latency_plus1           weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-02_demod_latency_plus1         weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-03_mod_idle_zero               weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-04_demod_idle_zero             weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-05_mod_reset_late              weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+W-06_demod_reset_late            weather   exp=PASS  act=F F F F F    (0P/5F) GATE FAIL
+S-01_const_sym10_i               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-02_const_sym01_q               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-03_slice_invert_i              sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-04_slice_swap_iq               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-05_mod_valid_gate              sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-06_demod_valid_skew            sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-07_const_sym00_i               sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+S-08_demod_valid_dup             sabotage  exp=FAIL  act=F F F F F    (0P/5F) OK
+
+CELLS: 8/15 matched
+CALIBRATION: FAIL — the battery is broken. Fix the battery, never the BKG (§9).
