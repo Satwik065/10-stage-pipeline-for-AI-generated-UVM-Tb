@@ -16,11 +16,18 @@ class qpsk_base_test extends uvm_test;
     endfunction
 
     task run_phase(uvm_phase phase);
-        qpsk_base_seq seq;
-        phase.raise_objection(this);
-        seq = qpsk_base_seq::type_id::create("seq");
+    qpsk_base_seq seq;
+    phase.raise_objection(this);
+    seq = qpsk_base_seq::type_id::create("seq");
+    fork
         seq.start(env.agent.seqr);
-        phase.drop_objection(this);
-    endtask
-
+        begin
+            #200_000ns;
+            `uvm_error("TEST", "watchdog expired")
+        end
+    join_any
+    disable fork;
+    #100ns;  // drain for 3-cycle DUT latency + margin
+    phase.drop_objection(this);
+endtask
 endclass

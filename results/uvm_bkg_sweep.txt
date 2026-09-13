@@ -1,0 +1,115 @@
+golden                       seed=42      [RESULT] PASS
+golden                       seed=1337    [RESULT] PASS
+golden                       seed=9001    [RESULT] PASS
+golden                       seed=271828  [RESULT] PASS
+golden                       seed=314159  [RESULT] PASS
+W-01_mod_latency_plus1       seed=42      [RESULT] PASS
+W-01_mod_latency_plus1       seed=1337    [RESULT] PASS
+W-01_mod_latency_plus1       seed=9001    [RESULT] PASS
+W-01_mod_latency_plus1       seed=271828  [RESULT] PASS
+W-01_mod_latency_plus1       seed=314159  [RESULT] PASS
+W-02_demod_latency_plus1     seed=42      [RESULT] PASS
+W-02_demod_latency_plus1     seed=1337    [RESULT] PASS
+W-02_demod_latency_plus1     seed=9001    [RESULT] PASS
+W-02_demod_latency_plus1     seed=271828  [RESULT] PASS
+W-02_demod_latency_plus1     seed=314159  [RESULT] PASS
+W-03_mod_idle_zero           seed=42      [RESULT] PASS
+W-03_mod_idle_zero           seed=1337    [RESULT] PASS
+W-03_mod_idle_zero           seed=9001    [RESULT] PASS
+W-03_mod_idle_zero           seed=271828  [RESULT] PASS
+W-03_mod_idle_zero           seed=314159  [RESULT] PASS
+W-04_demod_idle_zero         seed=42      [RESULT] PASS
+W-04_demod_idle_zero         seed=1337    [RESULT] PASS
+W-04_demod_idle_zero         seed=9001    [RESULT] PASS
+W-04_demod_idle_zero         seed=271828  [RESULT] PASS
+W-04_demod_idle_zero         seed=314159  [RESULT] PASS
+W-05_mod_reset_late          seed=42      [RESULT] PASS
+W-05_mod_reset_late          seed=1337    [RESULT] PASS
+W-05_mod_reset_late          seed=9001    [RESULT] PASS
+W-05_mod_reset_late          seed=271828  [RESULT] PASS
+W-05_mod_reset_late          seed=314159  [RESULT] PASS
+W-06_demod_reset_late        seed=42      [RESULT] PASS
+W-06_demod_reset_late        seed=1337    [RESULT] PASS
+W-06_demod_reset_late        seed=9001    [RESULT] PASS
+W-06_demod_reset_late        seed=271828  [RESULT] PASS
+W-06_demod_reset_late        seed=314159  [RESULT] PASS
+W-07_ch_noise_doubled        seed=42      [RESULT] PASS
+W-07_ch_noise_doubled        seed=1337    [RESULT] PASS
+W-07_ch_noise_doubled        seed=9001    [RESULT] PASS
+W-07_ch_noise_doubled        seed=271828  [RESULT] PASS
+W-07_ch_noise_doubled        seed=314159  [RESULT] PASS
+W-08_ch_rotation_doubled     seed=42      [RESULT] PASS
+W-08_ch_rotation_doubled     seed=1337    [RESULT] PASS
+W-08_ch_rotation_doubled     seed=9001    [RESULT] PASS
+W-08_ch_rotation_doubled     seed=271828  [RESULT] PASS
+W-08_ch_rotation_doubled     seed=314159  [RESULT] PASS
+W-09_ch_latency_plus1        seed=42      [RESULT] PASS
+W-09_ch_latency_plus1        seed=1337    [RESULT] PASS
+W-09_ch_latency_plus1        seed=9001    [RESULT] PASS
+W-09_ch_latency_plus1        seed=271828  [RESULT] PASS
+W-09_ch_latency_plus1        seed=314159  [RESULT] PASS
+W-10_ch_idle_zero            seed=42      [RESULT] PASS
+W-10_ch_idle_zero            seed=1337    [RESULT] PASS
+W-10_ch_idle_zero            seed=9001    [RESULT] PASS
+W-10_ch_idle_zero            seed=271828  [RESULT] PASS
+W-10_ch_idle_zero            seed=314159  [RESULT] PASS
+S-01_const_sym10_i           seed=42      [RESULT] FAIL errors=10
+S-01_const_sym10_i           seed=1337    [RESULT] FAIL errors=10
+S-01_const_sym10_i           seed=9001    [RESULT] FAIL errors=10
+S-01_const_sym10_i           seed=271828  [RESULT] FAIL errors=10
+S-01_const_sym10_i           seed=314159  [RESULT] FAIL errors=10
+S-02_const_sym01_q           seed=42      [RESULT] FAIL errors=10
+S-02_const_sym01_q           seed=1337    [RESULT] FAIL errors=10
+S-02_const_sym01_q           seed=9001    [RESULT] FAIL errors=10
+S-02_const_sym01_q           seed=271828  [RESULT] FAIL errors=10
+S-02_const_sym01_q           seed=314159  [RESULT] FAIL errors=10
+S-03_slice_invert_i          seed=42      [RESULT] FAIL errors=40
+S-03_slice_invert_i          seed=1337    [RESULT] FAIL errors=40
+S-03_slice_invert_i          seed=9001    [RESULT] FAIL errors=40
+S-03_slice_invert_i          seed=271828  [RESULT] FAIL errors=40
+S-03_slice_invert_i          seed=314159  [RESULT] FAIL errors=40
+S-04_slice_swap_iq           seed=42      [RESULT] FAIL errors=20
+S-04_slice_swap_iq           seed=1337    [RESULT] FAIL errors=20
+S-04_slice_swap_iq           seed=9001    [RESULT] FAIL errors=20
+S-04_slice_swap_iq           seed=271828  [RESULT] FAIL errors=20
+S-04_slice_swap_iq           seed=314159  [RESULT] FAIL errors=20
+S-05_mod_valid_gate          seed=42      [RESULT] FAIL errors=31
+S-05_mod_valid_gate          seed=1337    [RESULT] FAIL errors=31
+S-05_mod_valid_gate          seed=9001    [RESULT] FAIL errors=31
+S-05_mod_valid_gate          seed=271828  [RESULT] FAIL errors=31
+S-05_mod_valid_gate          seed=314159  [RESULT] FAIL errors=31
+S-06_demod_valid_skew        seed=42      [RESULT] FAIL errors=30
+S-06_demod_valid_skew        seed=1337    [RESULT] FAIL errors=30
+S-06_demod_valid_skew        seed=9001    [RESULT] FAIL errors=30
+S-06_demod_valid_skew        seed=271828  [RESULT] FAIL errors=30
+S-06_demod_valid_skew        seed=314159  [RESULT] FAIL errors=30
+S-07_const_sym00_i           seed=42      [RESULT] FAIL errors=10
+S-07_const_sym00_i           seed=1337    [RESULT] FAIL errors=10
+S-07_const_sym00_i           seed=9001    [RESULT] FAIL errors=10
+S-07_const_sym00_i           seed=271828  [RESULT] FAIL errors=10
+S-07_const_sym00_i           seed=314159  [RESULT] FAIL errors=10
+S-08_demod_valid_dup         seed=42      [RESULT] FAIL errors=71
+S-08_demod_valid_dup         seed=1337    [RESULT] FAIL errors=71
+S-08_demod_valid_dup         seed=9001    [RESULT] FAIL errors=71
+S-08_demod_valid_dup         seed=271828  [RESULT] FAIL errors=71
+S-08_demod_valid_dup         seed=314159  [RESULT] FAIL errors=71
+S-09_ch_q_inversion          seed=42      [RESULT] FAIL errors=40
+S-09_ch_q_inversion          seed=1337    [RESULT] FAIL errors=40
+S-09_ch_q_inversion          seed=9001    [RESULT] FAIL errors=40
+S-09_ch_q_inversion          seed=271828  [RESULT] FAIL errors=40
+S-09_ch_q_inversion          seed=314159  [RESULT] FAIL errors=40
+S-10_ch_drop_valid           seed=42      [RESULT] FAIL errors=31
+S-10_ch_drop_valid           seed=1337    [RESULT] FAIL errors=31
+S-10_ch_drop_valid           seed=9001    [RESULT] FAIL errors=31
+S-10_ch_drop_valid           seed=271828  [RESULT] FAIL errors=31
+S-10_ch_drop_valid           seed=314159  [RESULT] FAIL errors=31
+S-11_ch_noise_overload       seed=42      [RESULT] FAIL errors=31
+S-11_ch_noise_overload       seed=1337    [RESULT] FAIL errors=31
+S-11_ch_noise_overload       seed=9001    [RESULT] FAIL errors=31
+S-11_ch_noise_overload       seed=271828  [RESULT] FAIL errors=31
+S-11_ch_noise_overload       seed=314159  [RESULT] FAIL errors=31
+S-12_ch_q_zero               seed=42      [RESULT] FAIL errors=20
+S-12_ch_q_zero               seed=1337    [RESULT] FAIL errors=20
+S-12_ch_q_zero               seed=9001    [RESULT] FAIL errors=20
+S-12_ch_q_zero               seed=271828  [RESULT] FAIL errors=20
+S-12_ch_q_zero               seed=314159  [RESULT] FAIL errors=20
