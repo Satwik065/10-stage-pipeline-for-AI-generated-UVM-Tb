@@ -1,0 +1,27 @@
+Stage 1 — contract compile gate (manual, DEGRADED-row evidence)
+Date: 2026-09-13
+
+Command:
+  verilator --json-only -Wno-fatal --timing \
+    --Mdir ./.ast_work/contract \
+    --top-module qpsk_sva \
+    ./contract/interface.sv ./contract/qpsk_sva.sv
+
+Exit: 0
+Produced: Vqpsk_sva.tree.json (43734 bytes), Vqpsk_sva.tree.meta.json (8054 bytes)
+
+Signals confirmed present in elaborated AST:
+  ch_seed, valid_in, bits_in, valid_out, bits_out, clk, rst,
+  pending_sr (P1 shift register), credits (P2 counter)
+
+Reason item:compile_gate is DEGRADED in contract_manifest.json:
+  UVM sources (uvm_pkg.sv) not available locally at lock time.
+
+Assertion-engine note:
+  Icarus Verilog 12.0 lacks a concurrent-assertion engine and cannot
+  evaluate qpsk_sva.sv. Verilator is the sole toolchain for the SVA
+  false-fire proof.
+
+False-fire proof result:
+  run_p1_check.sh — 30/30 PASS, 0 fires
+  (Golden + W-01/02/05/06/09 × 5 LOCKED_SEEDS)

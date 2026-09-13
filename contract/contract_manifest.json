@@ -1,0 +1,151 @@
+{
+  "artifacts": {
+    "interface.sv": "4b9c382628c0769710916567b3b633ccac3f19086cf2b2f26f6ed1c3a5455034",
+    "qpsk_seq_item.sv": "cb70c30085a5f81c1697652f225c69cc8c6ebd040c2bc97872c30a25f9a2babd",
+    "qpsk_sva.sv": "8ae6211b7feb759b5fa088fb560b9cfc5831c1530aedda99d19108eb3124559c"
+  },
+  "checker": "stage1_ast_check-v2.1",
+  "checks": [
+    {
+      "check": "golden:pin_v2.1_s1",
+      "detail": "all 3 files byte-match frozen \u00a71 hashes",
+      "status": "PASS"
+    },
+    {
+      "check": "golden:qpsk_modulator:ports",
+      "detail": "exact match to locked map",
+      "status": "PASS"
+    },
+    {
+      "check": "golden:qpsk_modulator:ast",
+      "detail": "AST names present",
+      "status": "PASS"
+    },
+    {
+      "check": "golden:qpsk_demodulator:ports",
+      "detail": "exact match to locked map",
+      "status": "PASS"
+    },
+    {
+      "check": "golden:qpsk_demodulator:ast",
+      "detail": "AST names present",
+      "status": "PASS"
+    },
+    {
+      "check": "golden:channel:ports",
+      "detail": "exact match to locked map",
+      "status": "PASS"
+    },
+    {
+      "check": "golden:channel:ast",
+      "detail": "AST names present",
+      "status": "PASS"
+    },
+    {
+      "check": "iface:rename_map_widths",
+      "detail": "all mapped+widthed",
+      "status": "PASS"
+    },
+    {
+      "check": "iface:clocking_modports",
+      "detail": "drv_cb(negedge)/mon_cb(posedge)/modports present",
+      "status": "PASS"
+    },
+    {
+      "check": "item:fields",
+      "detail": "got={'bits': (2, True), 'bits_out': (2, False), 'valid': (1, False)}",
+      "status": "PASS"
+    },
+    {
+      "check": "item:structure",
+      "detail": "constraint/extends/utils/convert2string present",
+      "status": "PASS"
+    },
+    {
+      "check": "sva:ports",
+      "detail": "got={'clk': 1, 'rst': 1, 'valid_in': 1, 'valid_out': 1, 'bits_in': 2, 'bits_out': 2}",
+      "status": "PASS"
+    },
+    {
+      "check": "sva:assert_ids",
+      "detail": "all 5 present",
+      "status": "PASS"
+    },
+    {
+      "check": "sva:constructs",
+      "detail": "procedural liveness (no ##[..]), disable iff x5, pending_sr, credits, P5 gate present",
+      "status": "PASS"
+    },
+    {
+      "check": "sva:p5_default_off",
+      "detail": "P5 gated OFF (\u00a72/\u00a713: back-to-back LEGAL on v2 DUT)",
+      "status": "PASS"
+    },
+    {
+      "check": "item:compile_gate",
+      "detail": "DEGRADED (accepted): regex-only; UVM sources unavailable",
+      "status": "DEGRADED"
+    }
+  ],
+  "constitution_sha256": "6fbd46a0b33138337473660979d4f5d2b0bd8789d3766af3ebc815dddedb3ab5",
+  "contract_params": {
+    "b2b_stimulus": "LEGAL (\u00a713 execution-confirmed)",
+    "baseline_latency": 3,
+    "boundary": "3-module loopback (mod -> channel -> demod); TB-side interface is a boundary alias \u2014 ch_seed is a channel parameter-input, not data",
+    "dev_bugs": [
+      "S-01",
+      "S-02",
+      "S-03",
+      "S-05",
+      "S-09",
+      "S-11"
+    ],
+    "generation": {
+      "model": "claude",
+      "num_runs": "3",
+      "prompt_hash": "<paste hex>",
+      "temperature": "0.0"
+    },
+    "holdout_bugs": [
+      "S-04",
+      "S-06",
+      "S-07",
+      "S-08",
+      "S-10",
+      "S-12"
+    ],
+    "known_2state_inert_assertions": [
+      "a_no_xz_outputs"
+    ],
+    "known_dead_assertions": [
+      "a_symbol_domain"
+    ],
+    "liveness_L": 6,
+    "mismatch_budget": "0 (\u00a75b)"
+  },
+  "degraded": true,
+  "golden": {
+    "channel.sv": {
+      "frozen": "c05104057287a22d72bdf37c166cba7626818f6eb03748e5dfe38cc6a122681d",
+      "local": "c05104057287a22d72bdf37c166cba7626818f6eb03748e5dfe38cc6a122681d",
+      "match": true
+    },
+    "qpsk_demodulator.sv": {
+      "frozen": "dae0efdbbbd22282f4da54d373d20ade4a6227832350ffcb3721343fbaa3afe5",
+      "local": "dae0efdbbbd22282f4da54d373d20ade4a6227832350ffcb3721343fbaa3afe5",
+      "match": true
+    },
+    "qpsk_modulator.sv": {
+      "frozen": "1e97e9d673a68abe31b1e6b811f1b39f8e6b0ecdc686cf77d1aed55e03d32c92",
+      "local": "1e97e9d673a68abe31b1e6b811f1b39f8e6b0ecdc686cf77d1aed55e03d32c92",
+      "match": true
+    }
+  },
+  "ral": {
+    "present": false,
+    "reason": "v2 DUT has no register map"
+  },
+  "schema": "sync-hub-contract/2.0",
+  "verdict": "PASS",
+  "verilator_lint_rc": 0
+}
