@@ -8,3 +8,4 @@ mutants/
 *.d
 __pycache__/
 *.pyc
+.uvm_smoke/
