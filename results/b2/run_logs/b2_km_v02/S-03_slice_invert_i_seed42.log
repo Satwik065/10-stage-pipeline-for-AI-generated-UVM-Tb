@@ -1,0 +1,78 @@
+.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1120000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1160000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1200000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1240000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1280000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1320000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1360000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1400000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1440000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1480000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1520000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_WARNING tb/uvm/qpsk_seq.sv(14) @ 1560000: uvm_test_top.env.agent.seqr@@seq [RNDFLD] Randomization failed in uvm_do_with action
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_objection.svh(1271) @ 1700000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 0 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 1 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 2 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 3 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 4 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 5 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 6 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 7 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 8 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 9 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 10 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 11 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 12 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 13 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 14 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 15 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 16 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 17 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 18 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 19 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 20 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 21 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 22 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 23 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 24 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 25 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 26 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 27 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 28 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 29 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 30 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 31 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 32 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 33 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 34 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 35 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 36 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 37 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(66) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Symbol 38 mismatch: expected bits=0, got bits_out=10
+UVM_ERROR tb/uvm/qpsk_scoreboard.sv(74) @ 1700000: uvm_test_top.env.scb [QPSK_SB] Missing observed symbol for expected item 39
+UVM_INFO tb/uvm/qpsk_scoreboard.sv(48) @ 1700000: uvm_test_top.env.scb [RESULT] [RESULT] FAIL errors=40
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_report_server.svh(847) @ 1700000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :   40
+UVM_ERROR :   40
+UVM_FATAL :    0
+** Report counts by id
+[NO_DPI_TSTNAME]     1
+[QPSK_SB]    40
+[RESULT]     1
+[RNDFLD]    40
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+
+- /home/satwikvuppari/uvm-1.2/src/base/uvm_root.svh:517: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 2us; walltime 0.016 s; speed 103.946 us/s
+- Verilator: cpu 0.015 s on 1 threads; allocated 14 MB
+VlRProcess::open: execvp(z3): No such file or directory

@@ -1,0 +1,119 @@
+[FIREWALL] 17 active cells; sealed (never run): ['S-04_slice_swap_iq', 'S-06_demod_valid_skew', 'S-07_const_sym00_i', 'S-08_demod_valid_dup', 'S-10_ch_drop_valid', 'S-12_ch_q_zero']
+[EXCLUDE] qpsk_drv_km_04.sv: INELIGIBLE / ineligible
+[EXCLUDE] qpsk_drv_gm_02.sv: INELIGIBLE / ineligible
+[EXCLUDE] qpsk_drv_gm_04.sv: INELIGIBLE / ineligible
+[EXCLUDE] qpsk_sb_gm_01.sv: INELIGIBLE / ineligible
+Pool after ingestion filter: 41 / 45
+Way-1 triads: 11
+
+=== b2_pp_v01 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_v02 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_v03 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_v04 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_pp_v05 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_km_v01 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_v02 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_v03 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_v05 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_gm_v03 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_gm_v05 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+[WAY2] baseline selection:
+  pp: baseline pp_v01 (caught=6/6, ff=55/55)
+  km: baseline km_v01 (caught=6/6, ff=55/55)
+  gm: NO eligible Way-1 baseline — swaps skipped
+Way-2 swap triads: 23
+
+=== b2_pp_w2_drv02 === (swap drv->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_drv03 === (swap drv->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_drv04 === (swap drv->04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_drv05 === (swap drv->05)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_seq02 === (swap seq->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_seq03 === (swap seq->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_seq04 === (swap seq->04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_seq05 === (swap seq->05)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_sb02 === (swap sb->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_sb03 === (swap sb->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_sb04 === (swap sb->04)
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_pp_w2_sb05 === (swap sb->05)
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_km_w2_drv02 === (swap drv->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_drv03 === (swap drv->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_drv05 === (swap drv->05)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_seq02 === (swap seq->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_seq03 === (swap seq->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_seq04 === (swap seq->04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_seq05 === (swap seq->05)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_sb02 === (swap sb->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_sb03 === (swap sb->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_sb04 === (swap sb->04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_sb05 === (swap sb->05)
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+[RESTORE] BKG restored to tb/uvm/
+
+Wrote /home/satwikvuppari/qpsk_p/results/b2/stage5_runs.csv, /home/satwikvuppari/qpsk_p/results/b2/stage5_scores.csv, /home/satwikvuppari/qpsk_p/results/b2/way2_attribution.csv

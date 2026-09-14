@@ -1,0 +1,92 @@
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_root.svh(453) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test qpsk_base_test...
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+%Warning: Subprocess command `z3 --in' failed: exit status 127
+%Warning: Unable to communicate with SAT solver, please check its installation or specify a different one in VERILATOR_SOLVER environment variable.
+ ... Tried: $ z3 --in
+
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 0: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 30000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 60000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 90000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 120000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 150000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 180000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 210000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 240000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 270000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 300000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 330000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 360000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 390000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 420000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 450000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 480000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 510000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 540000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 570000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 600000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 630000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 660000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 690000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 720000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 750000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 780000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 810000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 840000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 870000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 900000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 930000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 960000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 990000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 1020000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 1050000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 1080000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 1110000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 1140000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_ERROR tb/uvm/qpsk_seq.sv(18) @ 1170000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] Randomization failed for QPSK symbol
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_objection.svh(1271) @ 1300000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+[RESULT] FAIL errors=1
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_report_server.svh(847) @ 1300000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    5
+UVM_WARNING :    0
+UVM_ERROR :   40
+UVM_FATAL :    0
+** Report counts by id
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[qpsk_base_seq]    40
+
+- /home/satwikvuppari/uvm-1.2/src/base/uvm_root.svh:517: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 1us; walltime 0.015 s; speed 87.445 us/s
+- Verilator: cpu 0.013 s on 1 threads; allocated 13 MB
+VlRProcess::open: execvp(z3): No such file or directory

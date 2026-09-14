@@ -1,0 +1,233 @@
+nohup: ignoring input
+===============================================
+[Mon Sep 14 07:52:49 PM IST 2026] STEP 1 — layout check
+===============================================
+  pp: 15 files
+  km: 15 files
+  gm: 15 files
+
+===============================================
+[Mon Sep 14 07:52:49 PM IST 2026] STEP 2 — ingest
+===============================================
+pp/qpsk_drv_pp_01.sv          OK          norm=2d2f7a2f unique
+pp/qpsk_drv_pp_02.sv          OK          norm=5c3b2aa9 unique
+pp/qpsk_drv_pp_03.sv          OK          norm=2739f532 unique
+pp/qpsk_drv_pp_04.sv          OK          norm=2a7fe7c0 unique
+pp/qpsk_drv_pp_05.sv          OK          norm=3fce22a6 unique
+pp/qpsk_sb_pp_01.sv           OK          norm=87af0933 unique
+pp/qpsk_sb_pp_02.sv           OK          norm=abaa8c10 unique
+pp/qpsk_sb_pp_03.sv           OK          norm=c2459afb unique
+pp/qpsk_sb_pp_04.sv           OK          norm=1d3a6686 unique
+pp/qpsk_sb_pp_05.sv           OK          norm=9c662a86 unique
+pp/qpsk_seq_pp_01.sv          OK          norm=4f7cbb0d unique
+pp/qpsk_seq_pp_02.sv          OK          norm=20b77b3c unique
+pp/qpsk_seq_pp_03.sv          OK          norm=595e4349 unique
+pp/qpsk_seq_pp_04.sv          OK          norm=6b85ac7a unique
+pp/qpsk_seq_pp_05.sv          OK          norm=e6f7286f unique
+km/qpsk_drv_km_01.sv          OK          norm=87424eea unique
+km/qpsk_drv_km_02.sv          OK          norm=9b6e35f8 unique
+km/qpsk_drv_km_03.sv          OK          norm=2975ad3f unique
+km/qpsk_drv_km_04.sv          INELIGIBLE  norm=-------- ineligible  [missing-macro:uvm_component_utils(qpsk_driver)]
+km/qpsk_drv_km_05.sv          OK          norm=b512e692 unique
+km/qpsk_sb_km_01.sv           OK          norm=311f474e unique
+km/qpsk_sb_km_02.sv           OK          norm=9b76fedb unique
+km/qpsk_sb_km_03.sv           OK          norm=c7b1c66e unique
+km/qpsk_sb_km_04.sv           OK          norm=0a39705f unique
+km/qpsk_sb_km_05.sv           OK          norm=89911c75 unique
+km/qpsk_seq_km_01.sv          OK          norm=37fc894b unique
+km/qpsk_seq_km_02.sv          OK          norm=286e9a2f unique
+km/qpsk_seq_km_03.sv          OK          norm=71c64b72 unique
+km/qpsk_seq_km_04.sv          OK          norm=31e515e6 unique
+km/qpsk_seq_km_05.sv          OK          norm=c7176ed0 unique
+gm/qpsk_drv_gm_01.sv          OK          norm=a661bf15 unique
+gm/qpsk_drv_gm_02.sv          INELIGIBLE  norm=-------- ineligible  [missing-macro:uvm_component_utils(qpsk_driver)]
+gm/qpsk_drv_gm_03.sv          OK          norm=8bebf162 unique
+gm/qpsk_drv_gm_04.sv          INELIGIBLE  norm=-------- ineligible  [missing-macro:uvm_component_utils(qpsk_driver)]
+gm/qpsk_drv_gm_05.sv          OK          norm=42ce881a unique
+gm/qpsk_sb_gm_01.sv           INELIGIBLE  norm=-------- ineligible  [missing-macro:uvm_component_utils(qpsk_scoreboard)]
+gm/qpsk_sb_gm_02.sv           OK          norm=f61f77f8 unique
+gm/qpsk_sb_gm_03.sv           OK          norm=21adfab7 unique
+gm/qpsk_sb_gm_04.sv           OK          norm=700e6fe2 unique
+gm/qpsk_sb_gm_05.sv           OK          norm=00149887 unique
+gm/qpsk_seq_gm_01.sv          OK          norm=b27007a2 unique
+gm/qpsk_seq_gm_02.sv          OK          norm=4cf89cf9 unique
+gm/qpsk_seq_gm_03.sv          OK          norm=d5643a70 unique
+gm/qpsk_seq_gm_04.sv          OK          norm=f343c948 unique
+gm/qpsk_seq_gm_05.sv          OK          norm=6821a6fc unique
+
+Way-1 triads available for pp: [1, 2, 3, 4, 5]  (pools: drv=[1, 2, 3, 4, 5] seq=[1, 2, 3, 4, 5] sb=[1, 2, 3, 4, 5])
+Way-1 triads available for km: [1, 2, 3, 5]  (pools: drv=[1, 2, 3, 5] seq=[1, 2, 3, 4, 5] sb=[1, 2, 3, 4, 5])
+Way-1 triads available for gm: [3, 5]  (pools: drv=[1, 3, 5] seq=[1, 2, 3, 4, 5] sb=[2, 3, 4, 5])
+
+INGEST DONE: 41 eligible / 0 photocopies benched / 4 ineligible — manifest: variants_manifest_b2.json
+
+===============================================
+[Mon Sep 14 07:52:49 PM IST 2026] STEP 3 — ingest summary (last 40 lines)
+===============================================
+pp/qpsk_seq_pp_02.sv          OK          norm=20b77b3c unique
+pp/qpsk_seq_pp_03.sv          OK          norm=595e4349 unique
+pp/qpsk_seq_pp_04.sv          OK          norm=6b85ac7a unique
+pp/qpsk_seq_pp_05.sv          OK          norm=e6f7286f unique
+km/qpsk_drv_km_01.sv          OK          norm=87424eea unique
+km/qpsk_drv_km_02.sv          OK          norm=9b6e35f8 unique
+km/qpsk_drv_km_03.sv          OK          norm=2975ad3f unique
+km/qpsk_drv_km_04.sv          INELIGIBLE  norm=-------- ineligible  [missing-macro:uvm_component_utils(qpsk_driver)]
+km/qpsk_drv_km_05.sv          OK          norm=b512e692 unique
+km/qpsk_sb_km_01.sv           OK          norm=311f474e unique
+km/qpsk_sb_km_02.sv           OK          norm=9b76fedb unique
+km/qpsk_sb_km_03.sv           OK          norm=c7b1c66e unique
+km/qpsk_sb_km_04.sv           OK          norm=0a39705f unique
+km/qpsk_sb_km_05.sv           OK          norm=89911c75 unique
+km/qpsk_seq_km_01.sv          OK          norm=37fc894b unique
+km/qpsk_seq_km_02.sv          OK          norm=286e9a2f unique
+km/qpsk_seq_km_03.sv          OK          norm=71c64b72 unique
+km/qpsk_seq_km_04.sv          OK          norm=31e515e6 unique
+km/qpsk_seq_km_05.sv          OK          norm=c7176ed0 unique
+gm/qpsk_drv_gm_01.sv          OK          norm=a661bf15 unique
+gm/qpsk_drv_gm_02.sv          INELIGIBLE  norm=-------- ineligible  [missing-macro:uvm_component_utils(qpsk_driver)]
+gm/qpsk_drv_gm_03.sv          OK          norm=8bebf162 unique
+gm/qpsk_drv_gm_04.sv          INELIGIBLE  norm=-------- ineligible  [missing-macro:uvm_component_utils(qpsk_driver)]
+gm/qpsk_drv_gm_05.sv          OK          norm=42ce881a unique
+gm/qpsk_sb_gm_01.sv           INELIGIBLE  norm=-------- ineligible  [missing-macro:uvm_component_utils(qpsk_scoreboard)]
+gm/qpsk_sb_gm_02.sv           OK          norm=f61f77f8 unique
+gm/qpsk_sb_gm_03.sv           OK          norm=21adfab7 unique
+gm/qpsk_sb_gm_04.sv           OK          norm=700e6fe2 unique
+gm/qpsk_sb_gm_05.sv           OK          norm=00149887 unique
+gm/qpsk_seq_gm_01.sv          OK          norm=b27007a2 unique
+gm/qpsk_seq_gm_02.sv          OK          norm=4cf89cf9 unique
+gm/qpsk_seq_gm_03.sv          OK          norm=d5643a70 unique
+gm/qpsk_seq_gm_04.sv          OK          norm=f343c948 unique
+gm/qpsk_seq_gm_05.sv          OK          norm=6821a6fc unique
+
+Way-1 triads available for pp: [1, 2, 3, 4, 5]  (pools: drv=[1, 2, 3, 4, 5] seq=[1, 2, 3, 4, 5] sb=[1, 2, 3, 4, 5])
+Way-1 triads available for km: [1, 2, 3, 5]  (pools: drv=[1, 2, 3, 5] seq=[1, 2, 3, 4, 5] sb=[1, 2, 3, 4, 5])
+Way-1 triads available for gm: [3, 5]  (pools: drv=[1, 3, 5] seq=[1, 2, 3, 4, 5] sb=[2, 3, 4, 5])
+
+INGEST DONE: 41 eligible / 0 photocopies benched / 4 ineligible — manifest: variants_manifest_b2.json
+
+===============================================
+[Mon Sep 14 07:52:49 PM IST 2026] STEP 4 — runner (Way-1 + Way-2)
+===============================================
+[FIREWALL] 17 active cells; sealed (never run): ['S-04_slice_swap_iq', 'S-06_demod_valid_skew', 'S-07_const_sym00_i', 'S-08_demod_valid_dup', 'S-10_ch_drop_valid', 'S-12_ch_q_zero']
+[EXCLUDE] qpsk_drv_km_04.sv: INELIGIBLE / ineligible
+[EXCLUDE] qpsk_drv_gm_02.sv: INELIGIBLE / ineligible
+[EXCLUDE] qpsk_drv_gm_04.sv: INELIGIBLE / ineligible
+[EXCLUDE] qpsk_sb_gm_01.sv: INELIGIBLE / ineligible
+Pool after ingestion filter: 41 / 45
+Way-1 triads: 11
+
+=== b2_pp_v01 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_v02 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_v03 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_v04 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_pp_v05 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_km_v01 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_v02 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_v03 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_v05 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_gm_v03 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_gm_v05 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+[WAY2] baseline selection:
+  pp: baseline pp_v01 (caught=6/6, ff=55/55)
+  km: baseline km_v01 (caught=6/6, ff=55/55)
+  gm: NO eligible Way-1 baseline — swaps skipped
+Way-2 swap triads: 23
+
+=== b2_pp_w2_drv02 === (swap drv->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_drv03 === (swap drv->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_drv04 === (swap drv->04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_drv05 === (swap drv->05)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_seq02 === (swap seq->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_seq03 === (swap seq->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_seq04 === (swap seq->04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_seq05 === (swap seq->05)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_sb02 === (swap sb->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_sb03 === (swap sb->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_pp_w2_sb04 === (swap sb->04)
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_pp_w2_sb05 === (swap sb->05)
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== b2_km_w2_drv02 === (swap drv->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_drv03 === (swap drv->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_drv05 === (swap drv->05)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_seq02 === (swap seq->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_seq03 === (swap seq->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_seq04 === (swap seq->04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_seq05 === (swap seq->05)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_sb02 === (swap sb->02)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_sb03 === (swap sb->03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_sb04 === (swap sb->04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== b2_km_w2_sb05 === (swap sb->05)
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+[RESTORE] BKG restored to tb/uvm/
+
+Wrote /home/satwikvuppari/qpsk_p/results/b2/stage5_runs.csv, /home/satwikvuppari/qpsk_p/results/b2/stage5_scores.csv, /home/satwikvuppari/qpsk_p/results/b2/way2_attribution.csv
+
+===============================================
+[Mon Sep 14 08:28:51 PM IST 2026] DONE
+===============================================

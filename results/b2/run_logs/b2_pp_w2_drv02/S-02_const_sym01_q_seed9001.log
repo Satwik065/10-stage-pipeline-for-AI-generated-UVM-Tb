@@ -1,0 +1,50 @@
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_root.svh(453) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test qpsk_base_test...
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+%Warning: Subprocess command `z3 --in' failed: exit status 127
+%Warning: Unable to communicate with SAT solver, please check its installation or specify a different one in VERILATOR_SOLVER environment variable.
+ ... Tried: $ z3 --in
+
+UVM_FATAL tb/uvm/qpsk_seq.sv(29) @ 10000: uvm_test_top.env.agent.seqr@@seq [qpsk_base_seq] randomize() failed for qpsk_seq_item
+UVM_INFO /home/satwikvuppari/uvm-1.2/src/base/uvm_report_server.svh(847) @ 10000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    4
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    1
+** Report counts by id
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[qpsk_base_seq]     1
+
+- /home/satwikvuppari/uvm-1.2/src/base/uvm_root.svh:135: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.053 devel
+- Verilator: $finish at 10ns; walltime 0.009 s; speed 1.167 us/s
+- Verilator: cpu 0.007 s on 1 threads; allocated 13 MB
+VlRProcess::open: execvp(z3): No such file or directory
