@@ -1,0 +1,29 @@
+
+=== q1_cg_v04 (way1) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+=== q1_cg_v05 (way1) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+=== q1_gm_v03 (way1) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+=== q1_X1_cg_drvGm (stage6) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+=== q1_X2_cg_seqGm (stage6) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+=== q1_X3_cg_sbGm (stage6) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+=== q1_X4_gm_drvCg (stage6) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+=== q1_X5_gm_seqCg (stage6) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+=== q1_X6_gm_sbCg (stage6) ===
+  C_holdout=1.000 (6/6) gap=+0.000
+
+[RESTORE] BKG restored to tb/uvm/
