@@ -382,10 +382,11 @@ Prompts contain NO:
 
 ### 13.2 Generation
 
-3 models × 3 categories × 5 chats = 45 raw files.
-Fresh chat per file. Same §4 rules: one formatting re-ask max,
-save all raw output.
-
+3 models × 3 categories × 5 chats = 45 raw files
+Deviation note: cg (ChatGPT) and qw (Qwen) became unavailable due to
+anti-bot verification walls before any batch-2 chat was fired.
+Substituted with pp (Perplexity) and km (Kimi) — both English-language
+general-purpose models. Substitution executed pre-generation.
 Paths:
 
 uvm_variants_b2/{cg,qw,gm}/qpsk_(drv|seq|sb)<m><NN>.sv
