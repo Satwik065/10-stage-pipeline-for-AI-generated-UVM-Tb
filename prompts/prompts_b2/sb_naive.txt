@@ -1,0 +1,37 @@
+You are writing a UVM 1.2 SystemVerilog scoreboard for a QPSK loopback testbench. Output only the file contents (no markdown fences, no explanation).
+
+The testbench is a 3-stage loopback (modulator -> channel -> demodulator). Symbols are 2-bit. The scoreboard receives two streams of qpsk_seq_item objects:
+
+- write_expected(): items arriving from the driver, one per symbol driven
+- write_observed(): items arriving from the monitor, one per valid_out
+
+Your scoreboard must decide whether the DUT behaved correctly and print exactly one final verdict line in check_phase:
+
+    [RESULT] PASS          if the DUT is correct
+    [RESULT] FAIL errors=N otherwise, where N is the number of
+                           discrepancies detected
+
+The enclosing package already declares the analysis imp classes via
+uvm_analysis_imp_decl(_expected) and uvm_analysis_imp_decl(_observed),
+provides import uvm_pkg::* and the UVM macros, and this frozen item class
+(do not redefine it):
+
+class qpsk_seq_item extends uvm_sequence_item;
+    rand bit [1:0] bits;
+    bit      [1:0] bits_out;
+    bit            valid;
+    `uvm_object_utils_begin(qpsk_seq_item)
+        `uvm_field_int(bits,     UVM_ALL_ON)
+        `uvm_field_int(bits_out, UVM_ALL_ON)
+        `uvm_field_int(valid,    UVM_ALL_ON)
+    `uvm_object_utils_end
+endclass
+
+Write class qpsk_scoreboard extends uvm_scoreboard that implements
+function void write_expected(qpsk_seq_item item);
+function void write_observed(qpsk_seq_item item);
+and prints the final verdict line in check_phase.
+
+Constraints: UVM 1.2; this file is `include`d inside an existing package
+(do not emit module, package, imports, or the imp_decl macros — already
+declared); class named exactly qpsk_scoreboard; end the file with endclass.

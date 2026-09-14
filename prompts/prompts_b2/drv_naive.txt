@@ -1,0 +1,52 @@
+You are writing a UVM 1.2 SystemVerilog driver for a QPSK loopback testbench. Output only the file contents (no markdown fences, no explanation).
+
+DUT: a 3-stage loopback (modulator -> channel -> demodulator). Symbols are 2-bit. The testbench interface exposes valid_in/bits_in (stimulus) and valid_out/bits_out (responses). Data is meaningful only when valid_out == 1. Baseline loopback latency is 3 cycles; there is no fixed-latency guarantee (responses may arrive 1 to 6 cycles after a stimulus).
+
+The enclosing package already provides import uvm_pkg::*, the UVM macros, and these frozen definitions (do not redefine them):
+
+interface qpsk_dut_if (input logic clk, input logic rst);
+    logic [31:0] ch_seed;
+    logic        valid_in;
+    logic [1:0]  bits_in;
+    logic        valid_out;
+    logic [1:0]  bits_out;
+    clocking drv_cb @(negedge clk);
+        default input #1step output #0;
+        output ch_seed, valid_in, bits_in;
+        input  valid_out, bits_out;
+    endclocking
+    clocking mon_cb @(posedge clk);
+        default input #1step;
+        input valid_out, bits_out;
+    endclocking
+    modport driver  (output ch_seed, valid_in, bits_in,
+                     input clk, rst, valid_out, bits_out, clocking drv_cb);
+    modport monitor (input clk, rst, ch_seed, valid_in, bits_in,
+                     valid_out, bits_out, clocking mon_cb);
+endinterface
+
+class qpsk_seq_item extends uvm_sequence_item;
+    rand bit [1:0] bits;
+    bit      [1:0] bits_out;
+    bit            valid;
+    constraint c_sym_uniform { bits inside {2'b00,2'b01,2'b10,2'b11}; }
+    `uvm_object_utils_begin(qpsk_seq_item)
+        `uvm_field_int(bits,     UVM_ALL_ON)
+        `uvm_field_int(bits_out, UVM_ALL_ON)
+        `uvm_field_int(valid,    UVM_ALL_ON)
+    `uvm_object_utils_end
+    function new(string name="qpsk_seq_item");
+    function string convert2string();
+endclass
+
+Write class qpsk_driver extends uvm_driver #(qpsk_seq_item) that:
+- gets the virtual interface from uvm_config_db#(virtual qpsk_dut_if), key "vif"
+- for each item from the sequencer: drives one symbol on valid_in/bits_in
+  (drv_cb clocking block is available), one cycle of valid_in per symbol,
+  at least 2 idle cycles between symbols
+- for every symbol driven, writes a qpsk_seq_item with .bits set to the
+  driven symbol to an analysis port named ap_expected
+
+Constraints: UVM 1.2; this file is `include`d inside an existing package
+(do not emit module, package, import uvm_pkg, or macro includes); class
+named exactly qpsk_driver; end the file with endclass.

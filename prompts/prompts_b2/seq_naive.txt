@@ -1,0 +1,25 @@
+You are writing a UVM 1.2 SystemVerilog sequence for a QPSK loopback testbench. Output only the file contents (no markdown fences, no explanation).
+
+The enclosing package already provides import uvm_pkg::*, the UVM macros, and this frozen item class (do not redefine it):
+
+class qpsk_seq_item extends uvm_sequence_item;
+    rand bit [1:0] bits;
+    bit      [1:0] bits_out;
+    bit            valid;
+    constraint c_sym_uniform { bits inside {2'b00,2'b01,2'b10,2'b11}; }
+    `uvm_object_utils_begin(qpsk_seq_item)
+        `uvm_field_int(bits,     UVM_ALL_ON)
+        `uvm_field_int(bits_out, UVM_ALL_ON)
+        `uvm_field_int(valid,    UVM_ALL_ON)
+    `uvm_object_utils_end
+    function new(string name="qpsk_seq_item");
+    function string convert2string();
+endclass
+
+Write class qpsk_base_seq extends uvm_sequence #(qpsk_seq_item) whose body
+produces exactly 40 items: ten each with bits = 2'b00, 2'b01, 2'b10, 2'b11,
+in a deterministic order of your choice.
+
+Constraints: UVM 1.2; this file is `include`d inside an existing package
+(do not emit module, package, import uvm_pkg, or macro includes); class
+named exactly qpsk_base_seq; end the file with endclass.
