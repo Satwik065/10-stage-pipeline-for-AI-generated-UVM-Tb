@@ -10,3 +10,9 @@ __pycache__/
 *.pyc
 .uvm_smoke/
 .uvm_smoke/
+.ast_work/
+.p1_work/
+stage5_work/
+stage5_work_b2/
+uvm-1.2.tar.gz
+tr_db.log
