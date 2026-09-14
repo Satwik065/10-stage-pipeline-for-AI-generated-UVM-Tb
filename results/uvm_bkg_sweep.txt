@@ -103,11 +103,11 @@ S-10_ch_drop_valid           seed=1337    [RESULT] FAIL errors=31
 S-10_ch_drop_valid           seed=9001    [RESULT] FAIL errors=31
 S-10_ch_drop_valid           seed=271828  [RESULT] FAIL errors=31
 S-10_ch_drop_valid           seed=314159  [RESULT] FAIL errors=31
-S-11_ch_noise_overload       seed=42      [RESULT] FAIL errors=31
-S-11_ch_noise_overload       seed=1337    [RESULT] FAIL errors=31
-S-11_ch_noise_overload       seed=9001    [RESULT] FAIL errors=31
-S-11_ch_noise_overload       seed=271828  [RESULT] FAIL errors=31
-S-11_ch_noise_overload       seed=314159  [RESULT] FAIL errors=31
+S-11_ch_noise_overload       seed=42      [RESULT] FAIL errors=23
+S-11_ch_noise_overload       seed=1337    [RESULT] FAIL errors=20
+S-11_ch_noise_overload       seed=9001    [RESULT] FAIL errors=35
+S-11_ch_noise_overload       seed=271828  [RESULT] FAIL errors=32
+S-11_ch_noise_overload       seed=314159  [RESULT] FAIL errors=25
 S-12_ch_q_zero               seed=42      [RESULT] FAIL errors=20
 S-12_ch_q_zero               seed=1337    [RESULT] FAIL errors=20
 S-12_ch_q_zero               seed=9001    [RESULT] FAIL errors=20

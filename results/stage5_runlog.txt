@@ -1,0 +1,147 @@
+[FIREWALL] 17 active cells; sealed (never run in Stage 4-5, Stage 8 only): ['S-04_slice_swap_iq', 'S-06_demod_valid_skew', 'S-07_const_sym00_i', 'S-08_demod_valid_dup', 'S-10_ch_drop_valid', 'S-12_ch_q_zero']
+Pool after ingestion filter: 45 / 45
+Way-1 triads: 15
+
+=== cg_v01 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== cg_v02 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== cg_v03 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== cg_v04 ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_v05 ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== qw_v01 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== qw_v02 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== qw_v03 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== qw_v04 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== qw_v05 ===
+  COMPILE FAIL (compile_error) -> T=0, C_dev=0
+
+=== gm_v01 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== gm_v02 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== gm_v03 ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_v04 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== gm_v05 ===
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+[WAY2] frozen baseline selection (caught desc -> ff asc -> lowest version-sum):
+  cg: baseline cg_v04 (caught=6/6, ff=0/55)
+  qw: NO eligible Way-1 baseline (all COMPILE_FAIL) — swaps skipped
+  gm: baseline gm_v03 (caught=6/6, ff=0/55)
+Way-2 swap triads: 24
+
+=== cg_w2_drv01 === (swap drv->01 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_w2_drv02 === (swap drv->02 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_w2_drv03 === (swap drv->03 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_w2_drv05 === (swap drv->05 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_w2_seq01 === (swap seq->01 vs baseline cg_v04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== cg_w2_seq02 === (swap seq->02 vs baseline cg_v04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== cg_w2_seq03 === (swap seq->03 vs baseline cg_v04)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== cg_w2_seq05 === (swap seq->05 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_w2_sb01 === (swap sb->01 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_w2_sb02 === (swap sb->02 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_w2_sb03 === (swap sb->03 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== cg_w2_sb05 === (swap sb->05 vs baseline cg_v04)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_w2_drv01 === (swap drv->01 vs baseline gm_v03)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_w2_drv02 === (swap drv->02 vs baseline gm_v03)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_w2_drv04 === (swap drv->04 vs baseline gm_v03)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_w2_drv05 === (swap drv->05 vs baseline gm_v03)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_w2_seq01 === (swap seq->01 vs baseline gm_v03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== gm_w2_seq02 === (swap seq->02 vs baseline gm_v03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== gm_w2_seq04 === (swap seq->04 vs baseline gm_v03)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_w2_seq05 === (swap seq->05 vs baseline gm_v03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== gm_w2_sb01 === (swap sb->01 vs baseline gm_v03)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_w2_sb02 === (swap sb->02 vs baseline gm_v03)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== gm_w2_sb04 === (swap sb->04 vs baseline gm_v03)
+  T=0.000  C_dev=1.000  Q3_FRAGILE
+
+=== gm_w2_sb05 === (swap sb->05 vs baseline gm_v03)
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+[LEADERBOARD] sorted per frozen rule (display only):
+  cg_v04     T=1.000 C_dev=1.000 Q1_SURVIVOR
+  cg_v05     T=1.000 C_dev=1.000 Q1_SURVIVOR
+  cg_v01     T=0.000 C_dev=1.000 Q3_FRAGILE
+  cg_v02     T=0.000 C_dev=1.000 Q3_FRAGILE
+  cg_v03     T=0.000 C_dev=1.000 Q3_FRAGILE
+  qw_v01     T=0.000 C_dev=0.000 COMPILE_FAIL
+  qw_v02     T=0.000 C_dev=0.000 COMPILE_FAIL
+  qw_v03     T=0.000 C_dev=0.000 COMPILE_FAIL
+  qw_v04     T=0.000 C_dev=0.000 COMPILE_FAIL
+  qw_v05     T=0.000 C_dev=0.000 COMPILE_FAIL
+  gm_v03     T=1.000 C_dev=1.000 Q1_SURVIVOR
+  gm_v01     T=0.000 C_dev=1.000 Q3_FRAGILE
+  gm_v02     T=0.000 C_dev=1.000 Q3_FRAGILE
+  gm_v04     T=0.000 C_dev=1.000 Q3_FRAGILE
+  gm_v05     T=0.000 C_dev=1.000 Q3_FRAGILE
+
+[RESTORE] BKG driver/seq/scoreboard restored to tb/uvm/
+
+Wrote /home/satwikvuppari/qpsk_p/results/stage5_runs.csv, /home/satwikvuppari/qpsk_p/results/stage5_scores.csv, /home/satwikvuppari/qpsk_p/results/way2_attribution.csv

@@ -1,0 +1,13 @@
+--- S-01_const_sym10_i ---
+     10 FIRE] L116
+--- S-02_const_sym01_q ---
+     10 FIRE] L116
+--- S-03_slice_invert_i ---
+     40 FIRE] L116
+--- S-05_mod_valid_gate ---
+      2 FIRE] L116
+     20 FIRE] L243
+--- S-09_ch_q_inversion ---
+     40 FIRE] L116
+--- S-11_ch_noise_overload ---
+     32 FIRE] L116

@@ -1,0 +1,51 @@
+cg/qpsk_drv_cg_01.sv          OK          norm=846a55e1 unique
+cg/qpsk_drv_cg_02.sv          OK          norm=820b8fd5 unique
+cg/qpsk_drv_cg_03.sv          OK          norm=c38d30dd unique
+cg/qpsk_drv_cg_04.sv          OK          norm=e3c9304f unique
+cg/qpsk_drv_cg_05.sv          OK          norm=0f509951 unique
+cg/qpsk_sb_cg_01.sv           OK          norm=34dd3bb3 unique
+cg/qpsk_sb_cg_02.sv           OK          norm=e7a324ca unique
+cg/qpsk_sb_cg_03.sv           OK          norm=7398ed1b unique
+cg/qpsk_sb_cg_04.sv           OK          norm=1a38e108 unique
+cg/qpsk_sb_cg_05.sv           OK          norm=cfb304c3 unique
+cg/qpsk_seq_cg_01.sv          OK          norm=0d3876f7 unique
+cg/qpsk_seq_cg_02.sv          OK          norm=a2839af5 unique
+cg/qpsk_seq_cg_03.sv          OK          norm=c2c8d7b7 unique
+cg/qpsk_seq_cg_04.sv          OK          norm=d0e28826 unique
+cg/qpsk_seq_cg_05.sv          OK          norm=6122a601 unique
+qw/qpsk_drv_qw_01.sv          OK          norm=ea06a0a6 unique
+qw/qpsk_drv_qw_02.sv          OK          norm=0e9f16fc unique
+qw/qpsk_drv_qw_03.sv          OK          norm=b285c410 unique
+qw/qpsk_drv_qw_04.sv          OK          norm=6c019030 unique
+qw/qpsk_drv_qw_05.sv          OK          norm=fc0c1632 unique
+qw/qpsk_sb_qw_01.sv           OK          norm=1e33dc0a unique
+qw/qpsk_sb_qw_02.sv           OK          norm=d00ea5e6 unique
+qw/qpsk_sb_qw_03.sv           OK          norm=10153284 unique
+qw/qpsk_sb_qw_04.sv           OK          norm=a4779627 unique
+qw/qpsk_sb_qw_05.sv           OK          norm=81a1326b unique
+qw/qpsk_seq_qw_01.sv          OK          norm=1b4fb1f6 unique
+qw/qpsk_seq_qw_02.sv          OK          norm=11203dc8 unique
+qw/qpsk_seq_qw_03.sv          OK          norm=da0e3adb unique
+qw/qpsk_seq_qw_04.sv          OK          norm=50bf4285 unique
+qw/qpsk_seq_qw_05.sv          OK          norm=ff447740 unique
+gm/qpsk_drv_gm_01.sv          OK          norm=82b123ae unique
+gm/qpsk_drv_gm_02.sv          OK          norm=db30e15a unique
+gm/qpsk_drv_gm_03.sv          OK          norm=8a37f443 unique
+gm/qpsk_drv_gm_04.sv          OK          norm=f6971b5c unique
+gm/qpsk_drv_gm_05.sv          OK          norm=e527ec0d unique
+gm/qpsk_sb_gm_01.sv           OK          norm=462c545e unique
+gm/qpsk_sb_gm_02.sv           OK          norm=f9525929 unique
+gm/qpsk_sb_gm_03.sv           OK          norm=e91b503c unique
+gm/qpsk_sb_gm_04.sv           OK          norm=b2ef76ee unique
+gm/qpsk_sb_gm_05.sv           OK          norm=7fe65697 unique
+gm/qpsk_seq_gm_01.sv          OK          norm=6faca599 unique
+gm/qpsk_seq_gm_02.sv          OK          norm=f695536a unique
+gm/qpsk_seq_gm_03.sv          OK          norm=3848c698 unique
+gm/qpsk_seq_gm_04.sv          OK          norm=9968a4fd unique
+gm/qpsk_seq_gm_05.sv          OK          norm=ce0752d2 unique
+
+Way-1 triads available for cg: [1, 2, 3, 4, 5]  (pools: drv=[1, 2, 3, 4, 5] seq=[1, 2, 3, 4, 5] sb=[1, 2, 3, 4, 5])
+Way-1 triads available for qw: [1, 2, 3, 4, 5]  (pools: drv=[1, 2, 3, 4, 5] seq=[1, 2, 3, 4, 5] sb=[1, 2, 3, 4, 5])
+Way-1 triads available for gm: [1, 2, 3, 4, 5]  (pools: drv=[1, 2, 3, 4, 5] seq=[1, 2, 3, 4, 5] sb=[1, 2, 3, 4, 5])
+
+INGEST DONE: 45 eligible / 0 photocopies benched / 0 ineligible — manifest: variants_manifest.json

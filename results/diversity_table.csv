@@ -1,0 +1,13 @@
+group,model,category,raw,ineligible,duplicates_excluded,functional
+variants,cg,drv,5,0,0,5
+variants,cg,seq,5,0,0,5
+variants,cg,sb,5,0,0,5
+variants,cg,ALL,15,0,0,15
+variants,gm,drv,5,0,0,5
+variants,gm,seq,5,0,0,5
+variants,gm,sb,5,0,0,5
+variants,gm,ALL,15,0,0,15
+variants,qw,drv,5,0,0,5
+variants,qw,seq,5,0,0,5
+variants,qw,sb,5,0,0,5
+variants,qw,ALL,15,0,0,15

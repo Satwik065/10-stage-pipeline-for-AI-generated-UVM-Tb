@@ -1,0 +1,55 @@
+class qpsk_driver extends uvm_driver #(qpsk_seq_item);
+
+    `uvm_component_utils(qpsk_driver)
+virtual qpsk_dut_if vif;
+bit [31:0] ch_seed = 32'hDEADBEEF;
+uvm_analysis_port #(qpsk_seq_item) ap_expected;
+
+function new(string name = "qpsk_driver", uvm_component parent = null);
+    super.new(name, parent);
+    ap_expected = new("ap_expected", this);
+endfunction
+
+function void build_phase(uvm_phase phase);
+    super.build_phase(phase);
+
+    if (!uvm_config_db#(virtual qpsk_dut_if)::get(this, "", "vif", vif))
+        `uvm_fatal(get_type_name(), "no vif in config_db")
+
+    void'(uvm_config_db#(bit [31:0])::get(this, "", "ch_seed", ch_seed));
+endfunction
+
+task automatic drive_one_symbol(input bit [1:0] sym);
+    qpsk_seq_item exp_item;
+
+    @(vif.drv_cb);
+    vif.drv_cb.valid_in <= 1'b1;
+    vif.drv_cb.bits_in  <= sym;
+
+    @(vif.drv_cb);
+    vif.drv_cb.valid_in <= 1'b0;
+    vif.drv_cb.bits_in  <= 2'b00;
+
+    exp_item = qpsk_seq_item::type_id::create("exp_item");
+    exp_item.bits = sym;
+    ap_expected.write(exp_item);
+
+    repeat (2) @(vif.drv_cb);
+endtask
+
+task run_phase(uvm_phase phase);
+    wait (vif.rst == 1'b0);
+    @(vif.drv_cb);
+
+    vif.drv_cb.ch_seed <= ch_seed;
+
+    forever begin
+        qpsk_seq_item req;
+
+        seq_item_port.get_next_item(req);
+        drive_one_symbol(req.bits);
+        seq_item_port.item_done();
+    end
+endtask
+
+endclass

@@ -1,0 +1,11 @@
+89:                $display("[ERROR] t=%0t X/Z on modulator output i_out=%b q_out=%b",
+99:                $display("[ERROR] t=%0t X/Z on channel output i_out=%b q_out=%b",
+122:                $display("[ERROR] t=%0t X/Z on demodulator output bits=%b",
+127:                $display("[ERROR] t=%0t duplicate/unexpected valid_out, bits=%b",
+133:                    $display("[ERROR] t=%0t data mismatch: expected=%b got=%b",
+138:                    $display("[ERROR] t=%0t late valid: latency=%0d cycles (max=%0d)",
+194:            $display("[RESULT] FAIL watchdog");
+219:        // start driving only after rst observed deasserted for >=1 cycle
+232:            $display("[ERROR] missing valid: expected bits=%b pushed at cycle=%0d never arrived",
+242:            $display("[RESULT] PASS");
+244:            $display("[RESULT] FAIL errors=%0d", error_count);

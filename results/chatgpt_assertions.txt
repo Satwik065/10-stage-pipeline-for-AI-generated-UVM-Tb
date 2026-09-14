@@ -1,0 +1,6 @@
+274:     * valid_in is asserted for exactly one cycle, followed by two
+303:         * Reset must be observed deasserted for one complete cycle
+304:         * before the first valid_in assertion.
+352:            $display("[RESULT] PASS");
+354:            $display("[RESULT] FAIL errors=%0d", errors);
+366:            $display("[RESULT] FAIL watchdog");

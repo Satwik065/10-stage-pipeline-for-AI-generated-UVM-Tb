@@ -1,0 +1,76 @@
+
+############################################
+### Claude — variants/sc_v3_ch/tb_ai_ch_v3.sv
+############################################
+--- golden ---
+  fire count: 0
+--- W-01_mod_latency_plus1 ---
+  fire count: 0
+--- W-02_demod_latency_plus1 ---
+  fire count: 0
+--- W-03_mod_idle_zero ---
+  fire count: 0
+--- W-04_demod_idle_zero ---
+  fire count: 0
+--- W-05_mod_reset_late ---
+  fire count: 0
+--- W-06_demod_reset_late ---
+  fire count: 0
+--- W-07_ch_noise_doubled ---
+  fire count: 0
+--- W-08_ch_rotation_doubled ---
+  fire count: 0
+--- W-09_ch_latency_plus1 ---
+  fire count: 0
+--- W-10_ch_idle_zero ---
+  fire count: 0
+--- S-01_const_sym10_i ---
+  fire count: 10
+--- S-02_const_sym01_q ---
+  fire count: 10
+--- S-03_slice_invert_i ---
+  fire count: 40
+--- S-05_mod_valid_gate ---
+  fire count: 48
+--- S-09_ch_q_inversion ---
+  fire count: 40
+--- S-11_ch_noise_overload ---
+  fire count: 34
+
+############################################
+### ChatGPT — variants/sc_v2_ch/tb_ai_ch_v2.sv
+############################################
+--- golden ---
+  fire count: 0
+--- W-01_mod_latency_plus1 ---
+  fire count: 0
+--- W-02_demod_latency_plus1 ---
+  fire count: 0
+--- W-03_mod_idle_zero ---
+  fire count: 0
+--- W-04_demod_idle_zero ---
+  fire count: 0
+--- W-05_mod_reset_late ---
+  fire count: 0
+--- W-06_demod_reset_late ---
+  fire count: 0
+--- W-07_ch_noise_doubled ---
+  fire count: 0
+--- W-08_ch_rotation_doubled ---
+  fire count: 0
+--- W-09_ch_latency_plus1 ---
+  fire count: 0
+--- W-10_ch_idle_zero ---
+  fire count: 0
+--- S-01_const_sym10_i ---
+  fire count: 0
+--- S-02_const_sym01_q ---
+  fire count: 0
+--- S-03_slice_invert_i ---
+  fire count: 0
+--- S-05_mod_valid_gate ---
+  fire count: 0
+--- S-09_ch_q_inversion ---
+  fire count: 0
+--- S-11_ch_noise_overload ---
+  fire count: 0
