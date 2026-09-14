@@ -1,0 +1,21 @@
+
+=== X1_cg_drvGm (cross=drv) ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== X2_cg_seqGm (cross=seq) ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== X3_cg_sbGm (cross=sb) ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== X4_gm_drvCg (cross=drv) ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== X5_gm_seqCg (cross=seq) ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+=== X6_gm_sbCg (cross=sb) ===
+  T=1.000  C_dev=1.000  Q1_SURVIVOR
+
+Interaction failure rate: 0/6
+Q1 survivors: 6/6
