@@ -1,0 +1,28 @@
+cell                            seed  SVA fired?   expected     ok?
+---------------------------------------------------------------------------
+golden                       5 seeds  no           SILENT       ✓
+W-01_mod_latency_plus1       5 seeds  no           SILENT       ✓
+W-02_demod_latency_plus1     5 seeds  no           SILENT       ✓
+W-03_mod_idle_zero           5 seeds  no           SILENT       ✓
+W-04_demod_idle_zero         5 seeds  no           SILENT       ✓
+W-05_mod_reset_late          5 seeds  no           SILENT       ✓
+W-06_demod_reset_late        5 seeds  no           SILENT       ✓
+W-07_ch_noise_doubled        5 seeds  no           SILENT       ✓
+W-08_ch_rotation_doubled     5 seeds  no           SILENT       ✓
+W-09_ch_latency_plus1        5 seeds  no           SILENT       ✓
+W-10_ch_idle_zero            5 seeds  no           SILENT       ✓
+S-01_const_sym10_i           5 seeds  no           either       ✓
+S-02_const_sym01_q           5 seeds  no           either       ✓
+S-03_slice_invert_i          5 seeds  no           either       ✓
+S-04_slice_swap_iq           5 seeds  no           either       ✓
+S-05_mod_valid_gate          5 seeds  YES          either       ✓
+S-06_demod_valid_skew        5 seeds  no           either       ✓
+S-07_const_sym00_i           5 seeds  no           either       ✓
+S-08_demod_valid_dup         5 seeds  YES          either       ✓
+S-09_ch_q_inversion          5 seeds  no           either       ✓
+S-10_ch_drop_valid           5 seeds  YES          either       ✓
+S-11_ch_noise_overload       5 seeds  no           either       ✓
+S-12_ch_q_zero               5 seeds  no           either       ✓
+
+[PASS] SVA silent on Golden + all 10 Weather cells across 5 seeds
+[INFO] SVA fires on some Sabotage cells — see above
