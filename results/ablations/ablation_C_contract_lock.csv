@@ -1,0 +1,16 @@
+model,file,status,port_count,issue_count,issues
+cg,qpsk_dut_if_cg_01.sv,FAIL,6,7,missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:seed;extra:symbol_out
+cg,qpsk_dut_if_cg_02.sv,FAIL,6,7,missing:clk;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:seed;extra:symbol_out
+cg,qpsk_dut_if_cg_03.sv,FAIL,7,6,missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:seed;extra:symbol_out
+cg,qpsk_dut_if_cg_04.sv,FAIL,7,4,missing:ch_seed;width:bits_in=1!=2;width:bits_out=1!=2;extra:seed
+cg,qpsk_dut_if_cg_05.sv,FAIL,6,5,missing:rst;missing:ch_seed;width:bits_in=1!=2;width:bits_out=1!=2;extra:seed
+gm,qpsk_dut_if_gm_01.sv,FAIL,5,8,missing:clk;missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:seed;extra:symbol_out
+gm,qpsk_dut_if_gm_02.sv,FAIL,5,8,missing:clk;missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:channel_seed;extra:symbol_out
+gm,qpsk_dut_if_gm_03.sv,FAIL,11,14,missing:clk;missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:channel_seed;extra:mod_i;extra:mod_q;extra:mod_valid;extra:chan_i;extra:chan_q;extra:chan_valid;extra:symbol_out
+gm,qpsk_dut_if_gm_04.sv,FAIL,5,8,missing:clk;missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:seed;extra:symbol_out
+gm,qpsk_dut_if_gm_05.sv,FAIL,6,9,missing:clk;missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:seed;extra:rst_n;extra:demod_out
+pp,qpsk_dut_if_pp_01.sv,FAIL,7,8,missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:channel_seed;extra:symbol_out;extra:rst_n
+pp,qpsk_dut_if_pp_02.sv,FAIL,6,7,missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:channel_seed;extra:symbol_out
+pp,qpsk_dut_if_pp_03.sv,FAIL,6,7,missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:channel_seed;extra:symbol_out
+pp,qpsk_dut_if_pp_04.sv,FAIL,12,17,missing:clk;missing:rst;missing:ch_seed;missing:bits_in;missing:valid_out;missing:bits_out;extra:symbol_in;extra:reset_n;extra:channel_seed;extra:mod_i_out;extra:mod_q_out;extra:mod_valid_out;extra:ch_i_out;extra:ch_q_out;extra:ch_valid_out;extra:demod_symbol_out;extra:demod_valid_out
+pp,qpsk_dut_if_pp_05.sv,FAIL,8,9,missing:rst;missing:ch_seed;missing:bits_in;missing:bits_out;extra:symbol_in;extra:channel_seed;extra:i_out;extra:q_out;extra:symbol_out

@@ -1,0 +1,16 @@
+model,file,ok,rename,width,missing,extras
+cg,qpsk_dut_if_l1_cg_01.sv,4,3,0,0,0
+cg,qpsk_dut_if_l1_cg_02.sv,4,3,0,0,0
+cg,qpsk_dut_if_l1_cg_03.sv,4,3,0,0,0
+cg,qpsk_dut_if_l1_cg_04.sv,4,3,0,0,0
+cg,qpsk_dut_if_l1_cg_05.sv,4,3,0,0,0
+gm,qpsk_dut_if_l1_gm_01.sv,3,4,0,0,0
+gm,qpsk_dut_if_l1_gm_02.sv,3,4,0,0,0
+gm,qpsk_dut_if_l1_gm_03.sv,3,4,0,0,0
+gm,qpsk_dut_if_l1_gm_04.sv,3,4,0,0,0
+gm,qpsk_dut_if_l1_gm_05.sv,3,3,0,1,1
+pp,qpsk_dut_if_l1_pp_01.sv,3,4,0,0,0
+pp,qpsk_dut_if_l1_pp_02.sv,3,4,0,0,0
+pp,qpsk_dut_if_l1_pp_03.sv,3,4,0,0,0
+pp,qpsk_dut_if_l1_pp_04.sv,1,5,0,1,1
+pp,qpsk_dut_if_l1_pp_05.sv,3,4,0,0,0
