@@ -1,0 +1,10 @@
+triad,origin,caught_holdout,C_holdout,C_dev_assumed,generalization_gap
+q1_cg_v04,way1,6,1.0000,1.0000,+0.0000
+q1_cg_v05,way1,6,1.0000,1.0000,+0.0000
+q1_gm_v03,way1,6,1.0000,1.0000,+0.0000
+q1_X1_cg_drvGm,stage6,6,1.0000,1.0000,+0.0000
+q1_X2_cg_seqGm,stage6,6,1.0000,1.0000,+0.0000
+q1_X3_cg_sbGm,stage6,6,1.0000,1.0000,+0.0000
+q1_X4_gm_drvCg,stage6,6,1.0000,1.0000,+0.0000
+q1_X5_gm_seqCg,stage6,6,1.0000,1.0000,+0.0000
+q1_X6_gm_sbCg,stage6,6,1.0000,1.0000,+0.0000

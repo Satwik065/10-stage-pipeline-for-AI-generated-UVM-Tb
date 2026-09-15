@@ -1,0 +1,7 @@
+assembly,cross_slot,T,C_dev,quadrant
+X1_cg_drvGm,drv,1.0000,1.0000,Q1_SURVIVOR
+X2_cg_seqGm,seq,1.0000,1.0000,Q1_SURVIVOR
+X3_cg_sbGm,sb,1.0000,1.0000,Q1_SURVIVOR
+X4_gm_drvCg,drv,1.0000,1.0000,Q1_SURVIVOR
+X5_gm_seqCg,seq,1.0000,1.0000,Q1_SURVIVOR
+X6_gm_sbCg,sb,1.0000,1.0000,Q1_SURVIVOR
