@@ -1,3 +1,14 @@
+> **POST-ERRATA NOTICE (2026-09-15).** Certain numbers in this
+> document are superseded by `errata_v1.md`. Specifically: catch
+> semantics (v2), Stage 8 scope (9 → 26 survivors), Weather lane
+> attribution (0 unique kills), Qwen reclassification (structural
+> malformation, not just backtick-drop), and AER numbers. See
+> `errata_v1.md` for the corrected claims. This document is preserved
+> as the frozen historical record; errata is the source of truth for
+> any number cited in the paper.
+
+---
+
 # Sync Hub Protocol — Experiment Flowchart
 
 **Project:** Screening LLM-Generated UVM Testbenches
