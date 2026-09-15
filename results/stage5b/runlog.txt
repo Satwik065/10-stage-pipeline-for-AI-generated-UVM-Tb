@@ -1,0 +1,28 @@
+
+============================================================
+=== cg_v04 ===
+============================================================
+  Scoreboard: qpsk_sb_cg_04.sv
+  Check sites found: 5  ['L24', 'L34', 'L39', 'L56', 'L62']
+  Useful=2  Dead=2  Harmful=0  Redundant=1
+  AER = 2/5 = 0.400
+
+============================================================
+=== cg_v05 ===
+============================================================
+  Scoreboard: qpsk_sb_cg_05.sv
+  Check sites found: 7  ['L29', 'L38', 'L44', 'L50', 'L56', 'L73', 'L79']
+  Useful=3  Dead=1  Harmful=0  Redundant=3
+  AER = 3/7 = 0.429
+
+============================================================
+=== gm_v03 ===
+============================================================
+  Scoreboard: qpsk_sb_gm_03.sv
+  Check sites found: 4  ['L27', 'L32', 'L43', 'L47']
+  Useful=2  Dead=1  Harmful=0  Redundant=1
+  AER = 2/4 = 0.500
+
+[RESTORE] BKG restored
+
+Summary: /home/satwikvuppari/qpsk_p/results/stage5b/summary.csv

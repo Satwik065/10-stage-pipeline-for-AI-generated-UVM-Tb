@@ -1,0 +1,8 @@
+site,class,fires_on_ge3
+L29,DEAD,"S-08_demod_valid_dup"
+L38,REDUNDANT,"S-03_slice_invert_i;S-05_mod_valid_gate;S-07_const_sym00_i;S-09_ch_q_inversion;S-10_ch_drop_valid;S-11_ch_noise_overload"
+L44,USEFUL,"S-02_const_sym01_q;S-03_slice_invert_i;S-04_slice_swap_iq;S-05_mod_valid_gate;S-06_demod_valid_skew;S-09_ch_q_inversion;S-10_ch_drop_valid;S-11_ch_noise_overload;S-12_ch_q_zero"
+L50,USEFUL,"S-01_const_sym10_i;S-03_slice_invert_i;S-04_slice_swap_iq;S-05_mod_valid_gate;S-06_demod_valid_skew;S-09_ch_q_inversion;S-10_ch_drop_valid;S-11_ch_noise_overload"
+L56,USEFUL,"S-03_slice_invert_i;S-05_mod_valid_gate;S-06_demod_valid_skew;S-09_ch_q_inversion;S-10_ch_drop_valid;S-11_ch_noise_overload;S-12_ch_q_zero"
+L73,REDUNDANT,"S-05_mod_valid_gate;S-10_ch_drop_valid"
+L79,REDUNDANT,"S-05_mod_valid_gate;S-08_demod_valid_dup;S-10_ch_drop_valid"
