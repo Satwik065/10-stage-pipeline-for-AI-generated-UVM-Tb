@@ -1,0 +1,80 @@
+
+=== b1_cg_v04 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_v05 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_v03 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_drv01 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_drv02 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_drv03 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_drv05 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_sb01 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_sb02 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_sb03 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_sb05 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_cg_seq05 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_drv01 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_drv02 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_drv04 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_drv05 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_sb01 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_sb02 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_sb05 ===
+  C_holdout = 6/6 = 1.000
+
+=== b1_gm_seq04 ===
+  C_holdout = 6/6 = 1.000
+
+=== s6_X1 ===
+  C_holdout = 6/6 = 1.000
+
+=== s6_X2 ===
+  C_holdout = 6/6 = 1.000
+
+=== s6_X3 ===
+  C_holdout = 6/6 = 1.000
+
+=== s6_X4 ===
+  C_holdout = 6/6 = 1.000
+
+=== s6_X5 ===
+  C_holdout = 6/6 = 1.000
+
+=== s6_X6 ===
+  C_holdout = 6/6 = 1.000
+
+[RESTORE] BKG restored
