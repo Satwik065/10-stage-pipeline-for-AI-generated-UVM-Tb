@@ -1,0 +1,81 @@
+
+=== BATCH 1 v2 ===
+triad                    model      T   C_dev quadrant        
+cg_v01                   cg     0.000   0.000 FAILS_GOLDEN    
+cg_v02                   cg     0.000   0.000 FAILS_GOLDEN    
+cg_v03                   cg     0.000   0.000 FAILS_GOLDEN    
+cg_v04                   cg     1.000   1.000 Q1_SURVIVOR     
+cg_v05                   cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_drv01              cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_drv02              cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_drv03              cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_drv05              cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_sb01               cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_sb02               cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_sb03               cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_sb05               cg     1.000   1.000 Q1_SURVIVOR     
+cg_w2_seq01              cg     0.000   0.000 FAILS_GOLDEN    
+cg_w2_seq02              cg     0.000   0.000 FAILS_GOLDEN    
+cg_w2_seq03              cg     0.000   0.000 FAILS_GOLDEN    
+cg_w2_seq05              cg     1.000   1.000 Q1_SURVIVOR     
+gm_v01                   gm     0.000   0.000 FAILS_GOLDEN    
+gm_v02                   gm     0.000   0.000 FAILS_GOLDEN    
+gm_v03                   gm     1.000   1.000 Q1_SURVIVOR     
+gm_v04                   gm     0.000   0.000 FAILS_GOLDEN    
+gm_v05                   gm     0.000   0.000 FAILS_GOLDEN    
+gm_w2_drv01              gm     1.000   1.000 Q1_SURVIVOR     
+gm_w2_drv02              gm     1.000   1.000 Q1_SURVIVOR     
+gm_w2_drv04              gm     1.000   1.000 Q1_SURVIVOR     
+gm_w2_drv05              gm     1.000   1.000 Q1_SURVIVOR     
+gm_w2_sb01               gm     1.000   1.000 Q1_SURVIVOR     
+gm_w2_sb02               gm     1.000   1.000 Q1_SURVIVOR     
+gm_w2_sb04               gm     0.000   0.000 FAILS_GOLDEN    
+gm_w2_sb05               gm     1.000   1.000 Q1_SURVIVOR     
+gm_w2_seq01              gm     0.000   0.000 FAILS_GOLDEN    
+gm_w2_seq02              gm     0.000   0.000 FAILS_GOLDEN    
+gm_w2_seq04              gm     1.000   1.000 Q1_SURVIVOR     
+gm_w2_seq05              gm     0.000   0.000 FAILS_GOLDEN    
+
+=== BATCH 2 v2 ===
+triad                    model      T   C_dev quadrant        
+b2_km_v01                km     0.000   0.000 FAILS_GOLDEN    
+b2_km_v02                km     0.000   0.000 FAILS_GOLDEN    
+b2_km_v03                km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_drv02           km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_drv03           km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_drv05           km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_sb02            km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_sb03            km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_sb04            km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_seq02           km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_seq03           km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_seq04           km     0.000   0.000 FAILS_GOLDEN    
+b2_km_w2_seq05           km     0.000   0.000 FAILS_GOLDEN    
+b2_pp_v01                pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_v02                pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_v03                pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_drv02           pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_drv03           pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_drv04           pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_drv05           pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_sb02            pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_sb03            pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_seq02           pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_seq03           pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_seq04           pp     0.000   0.000 FAILS_GOLDEN    
+b2_pp_w2_seq05           pp     0.000   0.000 FAILS_GOLDEN    
+
+=== STAGE 6 v2 ===
+triad                    model      T   C_dev quadrant        
+X1_cg_drvGm                     1.000   1.000 Q1_SURVIVOR     
+X2_cg_seqGm                     1.000   1.000 Q1_SURVIVOR     
+X3_cg_sbGm                      1.000   1.000 Q1_SURVIVOR     
+X4_gm_drvCg                     1.000   1.000 Q1_SURVIVOR     
+X5_gm_seqCg                     1.000   1.000 Q1_SURVIVOR     
+X6_gm_sbCg                      1.000   1.000 Q1_SURVIVOR     
+
+Summary written to /home/satwikvuppari/qpsk_p/results/recompute/summary_v2.txt
+BATCH 1: 20/34 Q1 survivors
+BATCH 2: 0/26 Q1 survivors
+STAGE 6: 6/6 Q1 survivors
+

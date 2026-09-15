@@ -24,12 +24,12 @@ import argparse, csv, hashlib, json, re, sys
 from pathlib import Path
 
 SCRIPT_VERSION = "stage4_ingest_lint-v1.0"
-MODELS = ["cg", "qw", "gm"]
+MODELS = ["pp", "km", "gm"]
 CATS   = ["drv", "seq", "sb"]
 CLASS_NAME = {"drv": "qpsk_driver", "seq": "qpsk_base_seq", "sb": "qpsk_scoreboard"}
 
-FILE_RE = re.compile(r'^qpsk_(drv|seq|sb)_(cg|qw|gm)_?(\d{2})\.sv$')
-CTRL_RE = re.compile(r'^qpsk_(drv|seq|sb)_(cg|qw|gm)_unseeded_v(\d+)\.sv$')
+FILE_RE = re.compile(r'^qpsk_(drv|seq|sb)_(cg|qw|gm|pp|km)_?(\d{2})\.sv$')
+CTRL_RE = re.compile(r'^qpsk_(drv|seq|sb)_(cg|qw|gm|pp|km)_unseeded_v(\d+)\.sv$')
 
 def sha256_bytes(b): return hashlib.sha256(b).hexdigest()
 

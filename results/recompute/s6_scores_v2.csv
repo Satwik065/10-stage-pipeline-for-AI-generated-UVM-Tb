@@ -1,0 +1,7 @@
+triad,model,T,C_dev,quadrant
+X1_cg_drvGm,,1.0,1.0,Q1_SURVIVOR
+X2_cg_seqGm,,1.0,1.0,Q1_SURVIVOR
+X3_cg_sbGm,,1.0,1.0,Q1_SURVIVOR
+X4_gm_drvCg,,1.0,1.0,Q1_SURVIVOR
+X5_gm_seqCg,,1.0,1.0,Q1_SURVIVOR
+X6_gm_sbCg,,1.0,1.0,Q1_SURVIVOR

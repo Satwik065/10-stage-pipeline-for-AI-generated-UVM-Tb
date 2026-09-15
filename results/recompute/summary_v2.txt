@@ -1,0 +1,3 @@
+BATCH 1: 20/34 Q1 survivors
+BATCH 2: 0/26 Q1 survivors
+STAGE 6: 6/6 Q1 survivors

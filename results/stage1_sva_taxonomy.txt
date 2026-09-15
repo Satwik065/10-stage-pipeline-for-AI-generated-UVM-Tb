@@ -1,0 +1,15 @@
+cell                           P# fired            
+-------------------------------------------------------
+S-05_mod_valid_gate            P1                  
+S-08_demod_valid_dup           P2                  
+S-10_ch_drop_valid             P1                  
+
+=== Per-assertion summary ===
+  P1:  2 cells  DEV=1 GW=0 other_S=1  -> USEFUL
+  P2:  1 cells  DEV=0 GW=0 other_S=1  -> DEAD
+  P3:  0 cells  DEV=0 GW=0 other_S=0  -> DEAD
+  P4:  0 cells  DEV=0 GW=0 other_S=0  -> DEAD
+  P5:  0 cells  DEV=0 GW=0 other_S=0  -> DEAD
+
+AER (SVA) = useful / total
+  1 / 5 = 0.200
